@@ -1,0 +1,22 @@
+[
+  {
+    "que": "Are you official?",
+    "ans": "No.",
+    "place": 1
+  },
+  {
+    "que": "What are your sources?",
+    "ans": "We are using state bulletins and official handles to update our numbers. The data is validated by a group of volunteers and published into a Google sheet and an API.\nhttps://telegra.ph/Covid-19-Sources-03-19",
+    "place": 2
+  },
+  {
+    "que": "Where is the patients data maintained?",
+    "ans": "A patients data is being maintained by Crowdsourced Patient Database in Google sheet.\nhttps://bit.ly/patientdb",
+    "place": 3
+  },
+  {
+    "que": "Why this application's count is ahead of MoHFW?",
+    "ans": "MoHFW releases the count at a scheduled time. However, we update them based on state press bulletins, official handles and reliable news channels which could be more recent.",
+    "place": 4
+  }
+]

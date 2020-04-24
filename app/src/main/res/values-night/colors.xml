@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <color name="green">#29A746</color>
+    <color name="greenLight">#7FCA8F</color>
+
+    <color name="red">#FF083B</color>
+    <color name="redLight">#FF6B89</color>
+
+    <color name="blue">#017CFF</color>
+    <color name="blueLight">#79B9FF</color>
+
+    <color name="gray">#6D767E</color>
+    <color name="grayLight">#A7ACB1</color>
+
+    <color name="black">#FFFFFF</color>
+
+    <color name="gray_text">#6C757D</color>
+    <color name="white">#000000</color>
+
+    <color name="gray_bg">#202020</color>
+    <color name="column_bg">#565656</color>
+
+    <color name="internet_tv">#fddb6d</color>
+
+    <!--colors for dark mode-->
+    <color name="contentBodyColor">#000</color>
+    <color name="contentTextColor">#fff</color>
+    <color name="miniTitle">#fff</color>
+</resources>

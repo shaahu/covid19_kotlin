@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">COVID-19 India Tracker</string>
+    <string name="last_updated_static">LAST UPDATED</string>
+    <string name="app_title">COVID-19 INDIA TRACKER</string>
+    <string name="confirmed_tv">CONFIRMED</string>
+    <string name="active_tv">ACTIVE</string>
+    <string name="recovered_tv">RECOVERED</string>
+    <string name="deceased_tv">DECEASED</string>
+    <string name="state_ut">STATE/UT</string>
+    <string name="confirmed_column_title">C</string>
+    <string name="active_column_title">A</string>
+    <string name="recovered_column_title">R</string>
+    <string name="deceased_column_title">D</string>
+    <string name="unable_to_load">UNABLE TO LOAD DATA\nTRY AGAIN!</string>
+    <string name="useful_info">useful information</string>
+    <string name="about">About</string>
+    <string name="myth_busters">Myth busters</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="downloading_assets">Downloading Assets</string>
+    <string name="preferences">preferences</string>
+    <string name="disclaimer">DISCLAIMER</string>
+    <string name="accept">Accept</string>
+    <string name="decline">decline</string>
+    <string name="no_permission_given"><![CDATA[No storage permission given.\nEnable storage permissions in Settings -> Application -> India Covid-19 Tracker]]></string>
+    <string name="disclaimer_text">The Covid-19 Indian statistical information provided in this application has NO official proof. We are using state news and patients database to update our numbers.\n\nPlease read About in Information section for more details.</string>
+    <string name="external_link">https://www.covid19india.org/</string>
+    <string name="settings_dark_mode">Dark Mode</string>
+    <string name="setting_preferred_state">Preferred State</string>
+    <string name="notifications">Notifications</string>
+    <string name="refresh_interval">Refresh Interval</string>
+    <string name="notification">Notifications</string>
+    <string name="feedback">Feedback</string>
+</resources>

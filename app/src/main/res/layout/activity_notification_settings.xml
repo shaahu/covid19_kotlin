@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+    <RelativeLayout
+        android:id="@+id/notif_back_btn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:contentDescription="back button"
+            android:src="@drawable/ic_back" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp">
+
+        <com.indiacovid19.trackingapp.views.ArchiaBoldTextView
+            android:id="@+id/info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/notification"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:textAllCaps="true" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/info_text"
+            android:layout_marginTop="10dp"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    style="@style/viewParent.headerText"
+                    android:text="Notifications"
+                    android:visibility="gone" />
+
+                <Switch
+                    android:id="@+id/notification_enable_switch"
+                    style="@style/settingsText"
+                    android:checked="false"
+                    android:drawableStart="@drawable/ic_on_off_switch"
+                    android:paddingVertical="10dp"
+                    android:text="@string/notifications" />
+
+                <RelativeLayout
+                    android:id="@+id/notification_settings_RL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/notif_state_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/pref_state_tv"
+                            style="@style/settingsText"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_pin"
+                            android:text="@string/setting_preferred_state" />
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/preferred_state_spinner"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:textAlignment="viewEnd"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="15dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/notif_state_name">
+
+                        <TextView
+                            style="@style/settingsText"
+                            android:layout_centerVertical="true"
+                            android:drawableStart="@drawable/ic_refresh"
+                            android:text="@string/refresh_interval" />
+
+                        <androidx.appcompat.widget.AppCompatSpinner
+                            android:id="@+id/refresh_interval_spn"
+                            android:layout_width="120dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_gravity="end"
+                            android:layout_marginTop="15dp" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</RelativeLayout>
